@@ -1,3 +1,5 @@
 # IcyWallet
 
-A fully accessible, secure Bitcoin hardware wallet. Coming soon.
+Simple, _accessible_ cold storage for your Bitcoin.
+
+Coming soon.
