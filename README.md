@@ -18,15 +18,15 @@ Combined with a Raspberry Pi and a pair of headphones (or refreshable braille di
 
 Development began in November 2017 and is currently underway.
 
-### Done
-
-* Wallet generation and mnemonic backup seed
-
 ### To Do
 
 * Simplified data movement process (via USB drive)
 * Fee estimation
 * Transaction signing
+
+### Done
+
+* Wallet generation and mnemonic backup seed
 
 ## Author
 
