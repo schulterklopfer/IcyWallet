@@ -10,7 +10,7 @@ Combined with a Raspberry Pi and a pair of headphones (or refreshable braille di
 * All interactions designed with the best possible accessible experience
 * Generates hierarchical deterministic wallets with mnemonic backup seeds
 * Built on the [Raspberry Vi](http://www.raspberryvi.org) OS image, updated to Raspbian Stretch
-* Uses the [BitcoinJS](https://bitcoinjs.org) library
+* Uses the proven and reliable [BitcoinJS](https://bitcoinjs.org) library
 
 ## Progress
 
