@@ -20,7 +20,7 @@ Development began in November 2017 and is currently underway.
 
 ### To Do
 
-* Simplified data movement process (via USB drive)
+* Data movement process
 * Fee estimation
 * Transaction signing
 
