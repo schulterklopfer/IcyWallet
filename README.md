@@ -28,6 +28,10 @@ Development began in November 2017 and is currently underway.
 
 * Wallet generation and mnemonic backup seed
 
+## License
+
+This project is licensed under the MIT License (see the LICENSE.md file for details).
+
 ## Author
 
 IcyWallet is a [Pug](https://pug.sh) project, by [Adam Newbold](https://github.com/newbold).
