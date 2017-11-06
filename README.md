@@ -10,7 +10,6 @@ Finally, a Bitcoin hardware wallet that doesn’t require sight. From seed to sp
 * Boots directly into the wallet app with functioning audio
 * All interactions designed for the best possible accessible experience
 * Generates hierarchical deterministic wallets with mnemonic backup seeds
-* Built on the [Raspberry Vi](http://www.raspberryvi.org) OS image, updated to Raspbian Stretch
 * Uses the proven and reliable [BitcoinJS](https://bitcoinjs.org) library
 
 ## Preview
