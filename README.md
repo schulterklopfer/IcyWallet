@@ -1,8 +1,8 @@
 # IcyWallet
 
-_Accessible cold storage for your Bitcoin_
+_Fully accessible cold storage for your Bitcoin_
 
-Combined with a Raspberry Pi and a pair of headphones (or refreshable braille display), IcyWallet aims to be the simplest and most secure Bitcoin cold storage solution—with a total emphasis on accessibility.
+Combined with a Raspberry Pi and a pair of headphones (or refreshable braille display), IcyWallet aims to be the simplest and most secure Bitcoin cold storage solution—with a total emphasis on accessibility. It’s a 100% audio hardware wallet; no screen required.
 
 ## Preview
 
