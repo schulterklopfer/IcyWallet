@@ -4,6 +4,10 @@ _Accessible cold storage for your Bitcoin_
 
 Combined with a Raspberry Pi and a pair of headphones (or refreshable braille display), IcyWallet aims to be the simplest and most secure Bitcoin cold storage solution—with a total emphasis on accessibility.
 
+## Preview
+
+[Here is an audio preview of the wallet creation process.](previews/new_wallet.mp3)
+
 ## Features
 
 * Boots directly into the app, with the eSpeak screen reader running
