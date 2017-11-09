@@ -12,7 +12,7 @@ Finally, a Bitcoin hardware wallet that doesn’t require sight. From seed to sp
 * Generates hierarchical deterministic wallets with mnemonic backup seeds
 * Uses the proven and reliable [BitcoinJS](https://bitcoinjs.org) library
 
-## Previews
+## Audio Previews
 
 * [Start-up](previews/welcome.mp3)
 * [Intro to the wallet creation process](previews/new_wallet.mp3)
