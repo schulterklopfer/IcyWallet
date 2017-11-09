@@ -1,3 +1,7 @@
+# Note
+
+IcyWallet is still in active development. The installation information below is part of an ongoing development and documentation effort, and as of today there is nothing to install yet (since the wallet is still being developed). Feel free to keep an eye on http://icywallet.com for updates.
+
 # Install IcyWallet
 
 If you don't want to buy a pre-configured IcyWallet device, there are still three ways that you can get up and running:
@@ -116,9 +120,18 @@ Type `touch ~/.hushlogin` and press enter.
 
 Type `sudo rm /etc/profile.d/sshpwd.sh` and press enter.
 
-Type `nano ~/.bashrc` and press enter. Scroll to the bottom of the file and add a line reading `nodejs icywallet/icywallet.js`, then press Ctrl-X, hit **Y**, and press enter.
+Type `amixer cset numid=3 1` and press enter.
 
 Type `amixer sset PCM,0 100%` and press enter.
+
+Type `nano ~/.bashrc` and press enter. Scroll to the bottom of the file and add the following lines:
+
+```
+alias custom_command='original_command'
+icywallet
+```
+
+Then press Ctrl-X, hit **Y**, and press enter.
 
 Type `sudo nano /etc/default/console-setup` and press enter. In the empty quotes beside **FONFACE**, type **TerminusBold** and in the empty quotes beside **FONTSIZE**, type **16x32**. Then press Ctrl-X, hit **Y**, and press enter. Then type `sudo reboot` and press enter.
 
