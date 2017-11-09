@@ -8,7 +8,11 @@ If you don't want to buy a pre-configured IcyWallet device, there are still thre
 
 ## Installing on existing hardware
 
-TBD
+```
+git clone https://github.com/pugsh/icywallet.git
+cd icywallet
+npm install
+```
 
 ## Ready-to-go disk image
 
@@ -82,6 +86,23 @@ Log in and run:
 
 `sudo apt-get install git vim nodejs npm libasound2-dev mpg321 -y`
 
+Then run:
+
+```
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt-get install nodejs
+```
+
+### Install IcyWallet
+
+Run:
+
+```
+git clone https://github.com/pugsh/icywallet.git
+cd icywallet
+npm install
+```
+
 ### Final Configuration
 
 Type `sudo nano /boot/cmdline.txt` and press enter. Where you see `console=tty1`, change that to `console=tty3` (tty**1** to tty**3**). Then, at the very end of the line, add `quiet splash loglevel=0 logo.nologo vt.global_cursor_default=0`. Press Ctrl-X, hit **Y**, and press enter.
@@ -94,7 +115,7 @@ Type `touch ~/.hushlogin` and press enter.
 
 Type `sudo rm /etc/profile.d/sshpwd.sh` and press enter.
 
-Type `nano ~/.bashrc` and press enter. Scroll to the bottom of the file and add a line reading `nodejs icywallet.js`, then press Ctrl-X, hit **Y**, and press enter.
+Type `nano ~/.bashrc` and press enter. Scroll to the bottom of the file and add a line reading `nodejs icywallet/icywallet.js`, then press Ctrl-X, hit **Y**, and press enter.
 
 Type `sudo nano /etc/default/console-setup` and press enter. In the empty quotes beside **FONFACE**, type **TerminusBold** and in the empty quotes beside **FONTSIZE**, type **16x32**. Then press Ctrl-X, hit **Y**, and press enter. Then type `sudo reboot` and press enter.
 
