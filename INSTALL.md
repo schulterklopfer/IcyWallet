@@ -48,7 +48,8 @@ Then, type `sudo raspi-config` and press enter.
 2. Select **Boot Options**, then **Desktop/CLI**, and choose **Console/Autologin**.
 3. Select **Localisation Options**, then **Change Keyboard Layout**, and make selections for your particular keyboard (the default is a UK layout).
 4. Select **Interfacing Options**, then **SSH**, and enable the SSH server.
-5. Select **Finish** and when prompted, reboot.
+5. Select **Advanced Options**, then **Audio**, and select **Force 3.5mm ('headphine') jack**.
+6. Select **Finish** and when prompted, reboot.
 
 ### Networking
 
@@ -116,6 +117,8 @@ Type `touch ~/.hushlogin` and press enter.
 Type `sudo rm /etc/profile.d/sshpwd.sh` and press enter.
 
 Type `nano ~/.bashrc` and press enter. Scroll to the bottom of the file and add a line reading `nodejs icywallet/icywallet.js`, then press Ctrl-X, hit **Y**, and press enter.
+
+Type `amixer sset PCM,0 100%` and press enter.
 
 Type `sudo nano /etc/default/console-setup` and press enter. In the empty quotes beside **FONFACE**, type **TerminusBold** and in the empty quotes beside **FONTSIZE**, type **16x32**. Then press Ctrl-X, hit **Y**, and press enter. Then type `sudo reboot` and press enter.
 
