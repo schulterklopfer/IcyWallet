@@ -26,7 +26,7 @@ Development began in November 2017 and is currently underway.
 
 The master branch is the current development branch. **The code here is unstable and should not be used.**
 
-[![Build Status](https://travis-ci.org/pugsh/IcyWallet.svg?branch=master)](https://travis-ci.org/pugsh/IcyWallet)
+[![Build Status](https://travis-ci.org/pugsh/IcyWallet.svg?branch=master)](https://travis-ci.org/pugsh/IcyWallet) [![Dependencies Status](https://david-dm.org/pugsh/icywallet/status.svg)](https://david-dm.org/pugsh/icywallet)
 
 ### To Do
 
