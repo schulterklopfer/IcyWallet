@@ -4,7 +4,7 @@ IcyWallet is still in active development. The installation information below is 
 
 # Install IcyWallet
 
-If you don't want to buy a pre-configured IcyWallet device, there are still three ways that you can get up and running:
+If you don't want to buy a pre-configured IcyWallet cold storage device, there are still three ways that you can get up and running:
 
 1. Install IcyWallet on any existing device running Node.js
 2. Download a pre-built IcyWallet disk image.
