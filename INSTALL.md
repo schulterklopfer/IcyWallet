@@ -127,7 +127,7 @@ Type `amixer sset PCM,0 100%` and press enter.
 Type `nano ~/.bashrc` and press enter. Scroll to the bottom of the file and add the following lines:
 
 ```
-alias custom_command='original_command'
+alias icywallet='nodejs ~/icywallet/icywallet.js'
 icywallet
 ```
 
