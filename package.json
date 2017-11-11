@@ -1,14 +1,14 @@
 {
   "name": "icywallet",
   "version": "0.0.1",
-  "description": "The screen-free, audio-friendly accessible Bitcoin cold storage solution",
+  "description": "The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution.",
   "main": "icywallet.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodejs test/tests.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/newbold/icywallet/"
+    "url": "https://github.com/pugsh/icywallet/"
   },
   "author": "Adam Newbold",
   "license": "MIT",
@@ -16,8 +16,6 @@
     "bip39": "^2.4.0",
     "bitcoinjs-lib": "^3.3.0",
     "keypress": "^0.2.1",
-    "mpg321": "^0.1.5",
-    "play-sound": "^1.1.1",
     "wordwrap": "^1.0.0"
   }
 }
