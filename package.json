@@ -4,7 +4,7 @@
   "description": "The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution.",
   "main": "icywallet.js",
   "scripts": {
-    "test": "nodejs test/tests.js"
+    "test": "node test/tests.js"
   },
   "repository": {
     "type": "git",
