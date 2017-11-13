@@ -1,7 +1,7 @@
+// Copyright (c) 2017 Pug
+
 var wrap = require('wordwrap')(80);
 var keypress = require('keypress');
-var player = require('play-sound')(opts = {player: 'mpg321'})
-var mpg321 = require('mpg321');
 var bip39 = require('bip39');
 var crypto = require('crypto');
 var bitcoin = require('bitcoinjs-lib');
