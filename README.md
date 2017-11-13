@@ -34,6 +34,7 @@ The master branch is the current development branch. **The code here is unstable
 * Data movement process
 * Fee estimation
 * Transaction signing
+* Language localization
 
 ### Done
 
