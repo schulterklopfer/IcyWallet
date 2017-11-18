@@ -4,6 +4,8 @@ _The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution
 
 Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed to spend, IcyWallet aims to be the simplest and most secure Bitcoin cold storage solution—with a total emphasis on accessibility. Just plug in headphones and a keyboard or a refreshable braille display and get started.
 
+![A white IcyWallet device, angle view](mockups/1.jpg "A white IcyWallet device, angle view")
+
 ## Features
 
 * Runs on just about any Raspberry Pi with no screen necessary
