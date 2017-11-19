@@ -9,10 +9,9 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 ## Features
 
-* Runs on just about any Raspberry Pi with no screen necessary
-* Boots directly into the wallet app with functioning audio
+* Boots directly into the wallet app with functioning audio and braille support (via BRLTTY)
 * All interactions designed for the best possible accessible experience
-* Generates hierarchical deterministic wallets with mnemonic backup seeds
+* Generates hierarchical deterministic wallets with mnemonic seeds for safe backup
 * Uses the proven and reliable [BitcoinJS](https://bitcoinjs.org) library
 
 ## Audio Previews
@@ -27,10 +26,9 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 Development began in November 2017 and is currently underway.
 
-The master branch is the current development branch. **The code here is unstable and should not be used.**
+The master branch is the current development branch, **which should should not be used.** There is no stable release at this time.
 
 [![Build Status](https://travis-ci.org/pugsh/IcyWallet.svg?branch=master)](https://travis-ci.org/pugsh/IcyWallet) [![Dependencies Status](https://david-dm.org/pugsh/icywallet/status.svg)](https://david-dm.org/pugsh/icywallet) [![Known Vulnerabilities](https://snyk.io/test/github/pugsh/icywallet/badge.svg)](https://snyk.io/test/github/pugsh/icywallet)
-
 
 ### To Do
 
