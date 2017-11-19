@@ -30,10 +30,10 @@ Following these steps, you’ll be able to create your very own IcyWallet device
 
 One of these Raspberry Pi models:
 
-** Raspberry Pi 1 Model A+
-** Raspberry Pi 1 Model B+
-** Raspberry Pi 2 Model B
-** Raspberry Pi 3 Model B
+* Raspberry Pi 1 Model A+
+* Raspberry Pi 1 Model B+
+* Raspberry Pi 2 Model B
+* Raspberry Pi 3 Model B
 
 IcyWallet will run on the Raspberry Pi Zero, but lacking an audio jack, the Zero is not ideal for the audio-only interface.
 
@@ -43,8 +43,8 @@ Begin by downloading the [latest Raspbian Stretch Lite image](https://downloads.
 
 When finished, insert the Micro SD card into your Raspberry Pi and power on the device. Connect a keyboard and headphones. After it boots to the login prompt, log in with the standard Raspberry Pi user account:
 
-** Username: pi
-** Password: raspberry
+* Username: pi
+* Password: raspberry
 
 Then, type `sudo raspi-config` and press enter.
 
@@ -97,6 +97,27 @@ Then run:
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 sudo apt-get install nodejs
 ```
+
+Setting up BRLTTY (for refreshable braille display support):
+
+`sudo apt-get install autoconf autogen`
+
+`sudo apt-get install tcl`
+
+`git clone https://github.com/brltty/brltty.git`
+
+`cd brltty`
+
+`./autogen`
+
+`./configure`
+
+`make`
+
+`sudo make install`
+
+`sudo brltty -b hm -d usb:`
+
 
 ### Install IcyWallet
 
