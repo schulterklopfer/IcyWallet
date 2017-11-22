@@ -27,22 +27,23 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 Development began in November 2017 and is currently underway.
 
-The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the current development branch, **which should should not be used.** There is no stable release at this time.
+The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the current development branch, **which should should not be used** (but is ideal for testing). There is no stable release at this time.
 
 [![Build Status](https://travis-ci.org/pugsh/IcyWallet.svg?branch=master)](https://travis-ci.org/pugsh/IcyWallet) [![Dependencies Status](https://david-dm.org/pugsh/icywallet/status.svg)](https://david-dm.org/pugsh/icywallet) [![Known Vulnerabilities](https://snyk.io/test/github/pugsh/icywallet/badge.svg)](https://snyk.io/test/github/pugsh/icywallet)
 
-### Itemized Feature List
+### Progress
 
-| Item                                       | Status | Notes                | Updated     |
-| ------------------------------------------ | ------ | -------------------- | ----------- |
-| Wallet generation and mnemonic backup seed | 90%    |                      | 2017-11-21  |
-| Data movement process                      | TBD    |                      |             |
-| Fee estimation                             | TBD    |                      |             |
-| Transaction signing                        | TBD    |                      |             |
-| Config: Voice speed                        | TBD    |                      |             |
-| Config: Refreshable braille display model  | TBD    |                      |             |
-| Language localization                      | TBD    |                      |             |
-| Upgrade process                            | TBD    |                      |             |
+| Item                                       | Status  | Notes                              | Updated    |
+| ------------------------------------------ | ------- | ---------------------------------- | ---------- |
+| Wallet generation                          | 100%    | Complete                           | 2017-11-21 |
+| Mnemonic backup seed issuance              | 90%     | Wrapping up confirmation process.  | 2017-11-21 |
+| Config: Voice speed                        | Pending |                                    |            |
+| Config: Refreshable braille display model  | Pending |                                    |            |
+| Fee estimation                             | Pending |                                    |            |
+| Data movement process                      | Pending |                                    |            |
+| Transaction signing                        | Pending |                                    |            |
+| Upgrade process                            | Pending |                                    |            |
+| Language localization                      | Pending |                                    |            |
 
 ## License
 
