@@ -2,7 +2,7 @@
 
 _The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution._
 
-Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed to spend, IcyWallet aims to be the simplest and most secure Bitcoin cold storage solution—with a total emphasis on accessibility. Just plug in headphones and a keyboard or a refreshable braille display and get started.
+Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed to spend, IcyWallet aims to be the simplest and most secure Bitcoin cold storage solution—with a total emphasis on accessibility. Just plug in headphones and a keyboard, or a refreshable braille display, and get going.
 
 [<img src="mockups/2.jpg" width="300" height="300" alt="An IcyWallet device, angle view" title="An IcyWallet device, angle view">](mockups/2.jpg)
 [<img src="mockups/1.jpg" width="300" height="300" alt="An IcyWallet device, top view" title="An IcyWallet device, top view">](mockups/1.jpg)
@@ -25,7 +25,7 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 ### Current Status
 
-Development is underway; for the latest activity, view the [master branch commits](https://github.com/pugsh/IcyWallet/commits/master). The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the active development branch, **which should should not be used with coins** (but is ideal for testing). There is no stable release at this time.
+Development is underway and you can view the [master branch commits](https://github.com/pugsh/IcyWallet/commits/master) for the latest activity. The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the active development branch, **which should should not be used with coins** (but is ideal for testing). There is no stable release at this time.
 
 [![Build Status](https://travis-ci.org/pugsh/IcyWallet.svg?branch=master)](https://travis-ci.org/pugsh/IcyWallet) [![Dependencies Status](https://david-dm.org/pugsh/icywallet/status.svg)](https://david-dm.org/pugsh/icywallet) [![Known Vulnerabilities](https://snyk.io/test/github/pugsh/icywallet/badge.svg)](https://snyk.io/test/github/pugsh/icywallet)
 
