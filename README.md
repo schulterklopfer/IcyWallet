@@ -33,17 +33,17 @@ The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the curre
 
 ### Progress
 
-| Item                                       | Status  | Notes                              | Updated    |
-| ------------------------------------------ | ------- | ---------------------------------- | ---------- |
-| Wallet generation                          | 100%    | Complete                           | 2017-11-21 |
-| Mnemonic backup seed issuance              | 90%     | Wrapping up confirmation process.  | 2017-11-21 |
-| Config: Voice speed                        | Pending |                                    |            |
-| Config: Refreshable braille display model  | Pending |                                    |            |
-| Fee estimation                             | Pending |                                    |            |
-| Data movement process                      | Pending |                                    |            |
-| Transaction signing                        | Pending |                                    |            |
-| Upgrade process                            | Pending |                                    |            |
-| Language localization                      | Pending |                                    |            |
+| Item                                       | Status  | Notes                            | Updated    |
+| ------------------------------------------ | ------- | -------------------------------- | ---------- |
+| Wallet generation                          | 100%    | Complete                         | 2017-11-21 |
+| Mnemonic backup seed issuance              | 90%     | Wrapping up confirmation process | 2017-11-21 |
+| Config: Voice speed                        | Pending |                                  |            |
+| Config: Refreshable braille display model  | Pending |                                  |            |
+| Fee estimation                             | Pending |                                  |            |
+| Data movement process                      | Pending |                                  |            |
+| Transaction signing                        | Pending |                                  |            |
+| Upgrade process                            | Pending |                                  |            |
+| Language localization                      | Pending |                                  |            |
 
 ## License
 
