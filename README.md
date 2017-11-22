@@ -37,6 +37,7 @@ The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the curre
 | ------------------------------------------ | ------- | -------------------------------- | ---------- |
 | Wallet generation                          | 100%    | Complete                         | 2017-11-21 |
 | Mnemonic backup seed issuance              | 90%     | Wrapping up confirmation process | 2017-11-21 |
+| Voice procurement process                  | Pending |                                  |            |
 | Config: Voice speed                        | Pending |                                  |            |
 | Config: Refreshable braille display model  | Pending |                                  |            |
 | Fee estimation                             | Pending |                                  |            |
