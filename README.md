@@ -25,7 +25,7 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 ### Current Status
 
-As of November 21, 2017, development is underway. The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the current development branch, **which should should not be used** (but is ideal for testing). There is no stable release at this time.
+Development is underway; for the latest activity, view the [master branch commits](https://github.com/pugsh/IcyWallet/commits/master). The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the active development branch, **which should should not be used with coins** (but is ideal for testing). There is no stable release at this time.
 
 [![Build Status](https://travis-ci.org/pugsh/IcyWallet.svg?branch=master)](https://travis-ci.org/pugsh/IcyWallet) [![Dependencies Status](https://david-dm.org/pugsh/icywallet/status.svg)](https://david-dm.org/pugsh/icywallet) [![Known Vulnerabilities](https://snyk.io/test/github/pugsh/icywallet/badge.svg)](https://snyk.io/test/github/pugsh/icywallet)
 
