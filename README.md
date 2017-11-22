@@ -31,18 +31,18 @@ The [master branch](https://github.com/pugsh/IcyWallet/tree/master) is the curre
 
 [![Build Status](https://travis-ci.org/pugsh/IcyWallet.svg?branch=master)](https://travis-ci.org/pugsh/IcyWallet) [![Dependencies Status](https://david-dm.org/pugsh/icywallet/status.svg)](https://david-dm.org/pugsh/icywallet) [![Known Vulnerabilities](https://snyk.io/test/github/pugsh/icywallet/badge.svg)](https://snyk.io/test/github/pugsh/icywallet)
 
-### To Do
+### Itemized Feature List
 
-* Data movement process
-* Fee estimation
-* Transaction signing
-* Configuration (voice speed and refreshable braille display model selection)
-* Language localization
-* Upgrade process
-
-### Done
-
-* Wallet generation and mnemonic backup seed
+| Item                                       | Status | Notes                | Updated     |
+| ------------------------------------------ | ------ | -------------------- | ----------- |
+| Wallet generation and mnemonic backup seed | 90%    |                      | 2017-11-21  |
+| Data movement process                      | TBD    |                      |             |
+| Fee estimation                             | TBD    |                      |             |
+| Transaction signing                        | TBD    |                      |             |
+| Config: Voice speed                        | TBD    |                      |             |
+| Config: Refreshable braille display model  | TBD    |                      |             |
+| Language localization                      | TBD    |                      |             |
+| Upgrade process                            | TBD    |                      |             |
 
 ## License
 
