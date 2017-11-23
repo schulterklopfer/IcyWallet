@@ -1,4 +1,4 @@
-# IcyWallet <img src="img/brl_icywallet.png" style="height: .7em;" alt="Icywallet written in braille">
+# IcyWallet <img src="img/brl_icywallet.png" style="margin-left: .5em; height: .5em;" alt="Icywallet written in braille">
 
 _The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution._
 
