@@ -1,4 +1,4 @@
-# IcyWallet
+# IcyWallet <img src="img/brl_icywallet.png" alt="Icywallet in braille">
 
 _The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution._
 
