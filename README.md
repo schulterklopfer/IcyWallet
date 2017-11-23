@@ -1,4 +1,4 @@
-# IcyWallet <img src="img/brl_icywallet.png" style="margin-left: .5em; height: .5em;" alt="Icywallet written in braille">
+# IcyWallet <img src="img/brl_icywallet.png" style="margin-left: .3em; height: .5em;" alt="Icywallet written in braille">
 
 _The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution._
 
@@ -9,7 +9,7 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 ## Features
 
-* Completely [open source](https://github.com/pugsh/IcyWallet)
+* 100% [free and open source](https://github.com/pugsh/IcyWallet)
 * Boots directly into the wallet app with functioning audio and braille support (via [BRLTTY](https://github.com/brltty/brltty))
 * All interactions designed for the best possible accessible experience
 * Generates hierarchical deterministic wallets with mnemonic seeds for safe backup
