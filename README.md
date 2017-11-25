@@ -9,7 +9,7 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 ## Features
 
-* Completely [open source](https://github.com/pugsh/IcyWallet)
+* 100% [free and open source](https://github.com/pugsh/IcyWallet)
 * Boots directly into the wallet app with functioning audio and braille support (via [BRLTTY](https://github.com/brltty/brltty))
 * All interactions designed for the best possible accessible experience
 * Generates hierarchical deterministic wallets with mnemonic seeds for safe backup
