@@ -9,7 +9,7 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 ## Features
 
-* 100% [free and open source](https://github.com/pugsh/IcyWallet)
+* Completely [open source](https://github.com/pugsh/IcyWallet)
 * Boots directly into the wallet app with functioning audio and braille support (via [BRLTTY](https://github.com/brltty/brltty))
 * All interactions designed for the best possible accessible experience
 * Generates hierarchical deterministic wallets with mnemonic seeds for safe backup
@@ -31,18 +31,18 @@ Development is underway and you can view the [master branch commits](https://git
 
 ### Progress
 
-| Item                                       | Status  | Notes                            | Updated    |
-| ------------------------------------------ | ------- | -------------------------------- | ---------- |
-| Wallet generation                          | 100%    | Complete                         | 2017-11-21 |
-| Mnemonic backup seed issuance              | 90%     | Wrapping up confirmation process | 2017-11-21 |
-| Voice procurement process                  | Pending |                                  |            |
-| Config: Voice speed                        | Pending |                                  |            |
-| Config: Refreshable braille display model  | Pending |                                  |            |
-| Fee estimation                             | Pending |                                  |            |
-| Data movement process                      | Pending |                                  |            |
-| Transaction signing                        | Pending |                                  |            |
-| Upgrade process                            | Pending |                                  |            |
-| Language localization                      | Pending |                                  |            |
+| Item                                       | Status   | Notes                            | Updated    |
+| ------------------------------------------ | -------- | -------------------------------- | ---------- |
+| Wallet generation                          | Complete | Private key generated and stored | 2017-11-21 |
+| Mnemonic backup seed process               | 90%      | Wrapping up confirmation process | 2017-11-21 |
+| Speech synthesis process                   | Complete | Combined with localization       | 2017-11-25 |
+| Config: Voice speed                        | Pending  |                                  |            |
+| Config: Refreshable braille display model  | Pending  |                                  |            |
+| Fee estimation                             | Pending  |                                  |            |
+| Data movement process                      | Pending  |                                  |            |
+| Transaction signing                        | Pending  |                                  |            |
+| Upgrade process                            | Pending  |                                  |            |
+| Language localization process              | Complete | Combined with speech synthesis   | 2017-11-25 |
 
 ## License
 
