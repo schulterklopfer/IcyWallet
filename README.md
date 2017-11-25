@@ -36,6 +36,7 @@ Development is underway and you can view the [master branch commits](https://git
 | Wallet generation                          | Complete | Private key generated and stored | 2017-11-21 |
 | Mnemonic backup seed process               | 90%      | Wrapping up confirmation process | 2017-11-21 |
 | Speech synthesis process                   | Complete | Combined with localization       | 2017-11-25 |
+| Config: Language                           | Pending  |                                  |            |
 | Config: Voice speed                        | Pending  |                                  |            |
 | Config: Refreshable braille display model  | Pending  |                                  |            |
 | Fee estimation                             | Pending  |                                  |            |
@@ -43,6 +44,11 @@ Development is underway and you can view the [master branch commits](https://git
 | Transaction signing                        | Pending  |                                  |            |
 | Upgrade process                            | Pending  |                                  |            |
 | Language localization process              | Complete | Combined with speech synthesis   | 2017-11-25 |
+
+## Press
+
+- [This Developer Is Making The First Bitcoin Wallet For The Blind](http://www.ibtimes.com/developer-making-first-bitcoin-wallet-blind-2618126), International Business Times, 11/21/2017
+- [Creating the World's First Bitcoin Wallet for the Blind](http://bitcoinist.com/creating-worlds-first-bitcoin-wallet-blind/), Bitcoinist, 11/25/2017
 
 ## License
 
