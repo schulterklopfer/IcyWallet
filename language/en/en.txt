@@ -1,0 +1,46 @@
+key_a	a	<prosody rate="300%">a</prosody>
+key_b	b	<prosody rate="300%">b</prosody>
+key_c	c	<prosody rate="300%">c</prosody>
+key_d	d	<prosody rate="300%">d</prosody>
+key_e	e	<prosody rate="300%">e</prosody>
+key_f	f	<prosody rate="300%">f</prosody>
+key_g	g	<prosody rate="300%">g</prosody>
+key_h	h	<prosody rate="300%">h</prosody>
+key_i	i	<prosody rate="300%">i</prosody>
+key_j	j	<prosody rate="300%">j</prosody>
+key_k	k	<prosody rate="300%">k</prosody>
+key_l	l	<prosody rate="300%">l</prosody>
+key_m	m	<prosody rate="300%">m</prosody>
+key_n	n	<prosody rate="300%">n</prosody>
+key_o	o	<prosody rate="300%">o</prosody>
+key_p	p	<prosody rate="300%">p</prosody>
+key_q	q	<prosody rate="300%">q</prosody>
+key_r	r	<prosody rate="300%">r</prosody>
+key_s	s	<prosody rate="300%">s</prosody>
+key_t	t	<prosody rate="300%">t</prosody>
+key_u	u	<prosody rate="300%">u</prosody>
+key_v	v	<prosody rate="300%">v</prosody>
+key_w	w	<prosody rate="300%">w</prosody>
+key_x	x	<prosody rate="300%">x</prosody>
+key_y	y	<prosody rate="300%">y</prosody>
+key_z	z	<prosody rate="300%">z</prosody>
+key_space	space	<prosody rate="300%">space</prosody>
+key_backtick	backtick	<prosody rate="300%">backtick</prosody>
+key_tilde	tilde	<prosody rate="300%">tilde</prosody>
+unknown	Unknown command. Type HELP for more information.	
+welcome	Welcome to IcyWallet.	
+main_prompt	Type HELP for more information, or enter a command.	
+new_wallet	In order to create a new wallet, you'll need to write down twelve words. These words are the seed for your wallet, and they serve as its only backup. It's important for you to capture them accurately. The words will be given one at a time and spelled out, since there are some homophones. After you capture the seed, you’ll need to re-enter the words to confirm you’ve stored the seed correctly. Since the seed allows anyone to take full control of your coins, please take precautions while capturing it. Be sure to use headphones, and confirm that no one is looking over your shoulder. Your seed should be stored completely offline. You can use a brailler or a slate and stylus to put it on paper. To start the process, type START and press enter.	
+seed_1	The first word is: 	
+seed_2	The second word is: 	
+seed_3	The third word is: 	
+seed_4	The fourth word is: 	
+seed_5	The fifth word is: 	
+seed_6	The sixth word is: 	
+seed_7	The seventh word is: 	
+seed_8	The eighth word is: 	
+seed_9	The ninth word is: 	
+seed_10	The tenth word is: 	
+seed_11	The eleventh word is: 	
+seed_12	The twelfth word is: 	
+seed_prompt	To continue to the next word, type NEXT. Press ENTER by itself to repeat.	
