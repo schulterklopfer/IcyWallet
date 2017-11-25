@@ -4,8 +4,8 @@ _The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution
 
 Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed to spend, IcyWallet aims to be the simplest and most secure Bitcoin cold storage solution—with a total emphasis on accessibility. Just plug in headphones and a keyboard, or a refreshable braille display, and get going.
 
-[<img src="mockups/2.jpg" width="300" height="300" alt="An IcyWallet device, angle view" title="An IcyWallet device, angle view">](mockups/2.jpg)
-[<img src="mockups/1.jpg" width="300" height="300" alt="An IcyWallet device, top view" title="An IcyWallet device, top view">](mockups/1.jpg)
+[<img src="https://icywallet.com/mockups/2.jpg" width="300" height="300" alt="An IcyWallet device, angle view" title="An IcyWallet device, angle view">](mockups/2.jpg)
+[<img src="https://icywallet.com/mockups/1.jpg" width="300" height="300" alt="An IcyWallet device, top view" title="An IcyWallet device, top view">](mockups/1.jpg)
 
 ## Features
 
@@ -17,9 +17,9 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 ## Audio Previews
 
-* [Start-up](previews/welcome.mp3)
-* [Intro to the wallet creation process](previews/new_wallet.mp3)
-* [Seed word generation](previews/seed_word.mp3)
+* [Start-up](https://icywallet.com/previews/welcome.mp3)
+* [Intro to the wallet creation process](https://icywallet.com/previews/new_wallet.mp3)
+* [Seed word generation](https://icywallet.com/previews/seed_word.mp3)
 
 ## Development
 
