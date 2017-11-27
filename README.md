@@ -1,11 +1,11 @@
 # IcyWallet
 
-_The screen-free, audio-friendly, fully-accessible Bitcoin cold storage solution._
+_Accessible Bitcoin cold storage_
 
 Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed to spend, IcyWallet aims to be the simplest and most secure Bitcoin cold storage solution—with a total emphasis on accessibility. Just plug in headphones and a keyboard, or a refreshable braille display, and get going.
 
-[<img src="https://icywallet.com/mockups/2.jpg" width="300" height="300" alt="An IcyWallet device, angle view" title="An IcyWallet device, angle view">](mockups/2.jpg)
-[<img src="https://icywallet.com/mockups/1.jpg" width="300" height="300" alt="An IcyWallet device, top view" title="An IcyWallet device, top view">](mockups/1.jpg)
+[<img src="https://icywallet.com/samples/icywallet_angle.jpg" width="300" height="300" alt="An IcyWallet device, angle view" title="An IcyWallet device, angle view">](https://icywallet.com/samples/icywallet_angle.jpg)
+[<img src="https://icywallet.com/samples/icywallet_overhead.jpg" width="300" height="300" alt="An IcyWallet device, top view" title="An IcyWallet device, top view">](https://icywallet.com/samples/icywallet_overhead.jpg)
 
 ## Features
 
@@ -17,9 +17,13 @@ Finally, a Bitcoin cold storage wallet that doesn’t require sight. From seed t
 
 ## Audio Previews
 
-* [Start-up](https://icywallet.com/previews/welcome.mp3)
-* [Intro to the wallet creation process](https://icywallet.com/previews/new_wallet.mp3)
-* [Seed word generation](https://icywallet.com/previews/seed_word.mp3)
+* [Start-up](https://icywallet.com/samples/welcome.mp3)
+* [Intro to the wallet creation process](https://icywallet.com/samples/new_wallet.mp3)
+* [Seed word generation](https://icywallet.com/samples/seed_word.mp3)
+
+## Chat & Support
+
+We’re using [Keybase](https://keybase.io) Teams for project communication. Join the IcyWallet team if you’d like to chat!
 
 ## Development
 
@@ -36,14 +40,14 @@ Development is underway and you can view the [master branch commits](https://git
 | Wallet generation                          | Complete | Private key generated and stored | 2017-11-21 |
 | Mnemonic backup seed process               | 90%      | Wrapping up confirmation process | 2017-11-21 |
 | Speech synthesis process                   | Complete | Combined with localization       | 2017-11-25 |
-| Config: Language                           | Pending  |                                  |            |
-| Config: Voice speed                        | Pending  |                                  |            |
+| Language localization process              | Complete | Combined with speech synthesis   | 2017-11-25 |
+| Config: Language                           | 10%      |                                  | 2017-11-26 |
+| Config: Voice speed                        | 10%      |                                  | 2017-11-26 |
 | Config: Refreshable braille display model  | Pending  |                                  |            |
 | Fee estimation                             | Pending  |                                  |            |
 | Data movement process                      | Pending  |                                  |            |
 | Transaction signing                        | Pending  |                                  |            |
 | Upgrade process                            | Pending  |                                  |            |
-| Language localization process              | Complete | Combined with speech synthesis   | 2017-11-25 |
 
 ## Press
 
