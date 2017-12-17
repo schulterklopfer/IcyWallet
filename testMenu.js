@@ -23,8 +23,16 @@ module.exports = {
 
 
 const m = new Menu();
-  m.loadFromJSON( menuJson, function(err) {
+
+
+m.registerAction('wait', function( params, next ) {
+  const time = parseInt(params.ms);
+  setTimeout( next, time );
+})
+
+m.loadFromJSON( menuJson, function(err) {
   console.log( "json loaded" );
+
 
   m.readCurrentView(function(err) {
     console.log( "menu finished" );

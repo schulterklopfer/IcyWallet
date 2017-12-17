@@ -8,9 +8,9 @@
                 "1": {
                     "title": "to generate a wallet",
                     "help": "help text 1",
-                    "action": "module.method",
+                    "action": "wait",
                     "actionParams": {
-                        "foo": "bar"
+                        "ms": 1000
                     },
                     "navigate": "sub"
                 },
