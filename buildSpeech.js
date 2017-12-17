@@ -40,7 +40,13 @@ const tts = function( text, baseFolder, cb ) {
 
 var index = {};
 
-var texts = ['current view', 'press'];
+// TODO: read from file
+var texts = [
+  'a', 'b', 'c', 'd', 'e', 'f',
+  'g', 'h', 'i', 'j', 'k', 'l',
+  'm', 'n', 'o', 'p', 'q', 'r',
+  's', 't', 'u', 'v', 'w', 'x',
+  'y', 'z', 'current view', 'press' ];
 
 const views = menuJSON.views ;
 
