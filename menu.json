@@ -6,7 +6,7 @@
             "descr": "description",
             "options": {
                 "1": {
-                    "title": "Generate a wallet",
+                    "title": "to generate a wallet",
                     "help": "help text 1",
                     "action": "module.method",
                     "actionParams": {
@@ -15,17 +15,17 @@
                     "navigate": "sub"
                 },
                 "2": {
-                    "title": "Receive money",
+                    "title": "to receive money",
                     "help": "help text 2",
                     "navigate": "sub"
                 },
                 "3": {
-                    "title": "Send money",
+                    "title": "to send money",
                     "help": "help text 3",
                     "navigate": "sub"
                 },
                 "4": {
-                    "title": "Next screen",
+                    "title": "to go to the next screen",
                     "help": "help text 4",
                     "navigate": "[next]"
                 }
@@ -37,7 +37,7 @@
             "descr": "description",
             "options": {
                 "1": {
-                    "title": "Back",
+                    "title": "to go back",
                     "help": "help text 3",
                     "navigate": "[back]"
                 }
