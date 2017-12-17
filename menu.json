@@ -1,0 +1,47 @@
+{
+    "entryPoint": "main",
+    "views" : {
+        "main" : {
+            "title" : "Main menu",
+            "descr": "description",
+            "options": {
+                "1": {
+                    "title": "Generate a wallet",
+                    "help": "help text 1",
+                    "action": "module.method",
+                    "actionParams": {
+                        "foo": "bar"
+                    },
+                    "navigate": "sub"
+                },
+                "2": {
+                    "title": "Receive money",
+                    "help": "help text 2",
+                    "navigate": "sub"
+                },
+                "3": {
+                    "title": "Send money",
+                    "help": "help text 3",
+                    "navigate": "sub"
+                },
+                "4": {
+                    "title": "Next screen",
+                    "help": "help text 4",
+                    "navigate": "[next]"
+                }
+            },
+            "next": "sub"
+        },
+        "sub" : {
+            "title" : "Generate a wallet",
+            "descr": "description",
+            "options": {
+                "1": {
+                    "title": "Back",
+                    "help": "help text 3",
+                    "navigate": "[back]"
+                }
+            }
+        }
+    }
+}

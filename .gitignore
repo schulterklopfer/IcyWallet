@@ -1,2 +1,6 @@
+*.sw[a-z]
 .DS_Store
-staging
+node_modules
+DEADJOE
+*~
+usr
