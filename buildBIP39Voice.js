@@ -12,7 +12,7 @@ const texts = c.toString().split('\n');
 
 async.eachLimit( texts, 10, function( text, nextEach ) {
   text = text.toLowerCase();
-  tts.get( text, 'tts/en', function(err,r) {
+  tts.get( text, 'en', 1, 'tts/en', function(err,r) {
     if( err ) return nextEach(err);
     index[r.text] = r.digest;
     console.log( r.text,'->',r.digest);
