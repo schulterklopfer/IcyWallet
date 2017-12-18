@@ -3,11 +3,10 @@
     "views" : {
         "main" : {
             "title" : "Main menu",
-            "descr": "description",
+            "speak" : "Main menu",
             "options": {
                 "1": {
-                    "title": "to generate a wallet",
-                    "help": "help text 1",
+                    "speak": "press 1 to generate a wallet",
                     "action": "wait",
                     "actionParams": {
                         "ms": 1000
@@ -15,18 +14,15 @@
                     "navigate": "sub"
                 },
                 "2": {
-                    "title": "to receive money",
-                    "help": "help text 2",
+                    "speak": "press 2 to receive money",
                     "navigate": "sub"
                 },
                 "3": {
-                    "title": "to send money",
-                    "help": "help text 3",
+                    "speak": "press 3 to send money",
                     "navigate": "sub"
                 },
                 "4": {
-                    "title": "to go to the next screen",
-                    "help": "help text 4",
+                    "speak": "press 4 to go to the next screen",
                     "navigate": "[next]"
                 }
             },
@@ -34,11 +30,10 @@
         },
         "sub" : {
             "title" : "Generate a wallet",
-            "descr": "description",
+            "speak" : "Generate a wallet",
             "options": {
                 "1": {
-                    "title": "to go back",
-                    "help": "help text 3",
+                    "speak": "press 1 to go back",
                     "navigate": "[back]"
                 }
             }

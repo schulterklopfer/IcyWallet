@@ -13,18 +13,18 @@ var texts = [
   'g', 'h', 'i', 'j', 'k', 'l',
   'm', 'n', 'o', 'p', 'q', 'r',
   's', 't', 'u', 'v', 'w', 'x',
-  'y', 'z', 'current view', 'press' ];
+  'y', 'z', 'current view'];
 
 const views = menuJSON.views ;
 
 _.each( views, function(view) {
-  if( _.indexOf( texts, view.title )===-1  ) {
-    texts.push(view.title);
+  if( _.indexOf( texts, view.speak )===-1  ) {
+    texts.push(view.speak);
   }
 
-  _.each( view.options, function(option,key) {
-    if(  _.indexOf( texts, option.title )===-1 ) {
-      texts.push('press '+key+' '+option.title);
+  _.each( view.options, function(option) {
+    if(  _.indexOf( texts, option.speak )===-1 ) {
+      texts.push(option.speak);
     }
 
   });
