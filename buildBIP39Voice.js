@@ -6,9 +6,9 @@ const fs = require('fs');
 
 var index = {};
 
-const c = fs.readFileSync( 'language/en/en_bip39_wordlist.txt' );
+const wordlists = require('bip39').wordlists;
 
-const texts = c.toString().split('\n');
+const texts = wordlists.english;
 
 async.eachLimit( texts, 10, function( text, nextEach ) {
   text = text.toLowerCase();
@@ -17,12 +17,13 @@ async.eachLimit( texts, 10, function( text, nextEach ) {
     index[r.text] = r.digest;
     console.log( r.text,'->',r.digest);
     nextEach();
-  })
+  });
 }, function(err) {
   const fileName = 'tts/en/bip39.json';
   fs.writeFileSync( fileName, JSON.stringify(index,null,4) );
   console.log( 'done' );
 })
+
 
 
 
