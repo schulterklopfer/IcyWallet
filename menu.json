@@ -2,39 +2,58 @@
     "entryPoint": "main",
     "views" : {
         "main" : {
-            "title" : "Main menu",
-            "speak" : "Main menu",
-            "options": {
-                "1": {
-                    "speak": "press 1 to generate a wallet",
-                    "action": "wait",
-                    "actionParams": {
-                        "ms": 1000
-                    },
-                    "navigate": "sub"
-                },
-                "2": {
-                    "speak": "press 2 to receive money",
-                    "navigate": "sub"
-                },
-                "3": {
-                    "speak": "press 3 to send money",
-                    "navigate": "sub"
-                },
-                "4": {
-                    "speak": "press 4 to go to the next screen",
-                    "navigate": "[next]"
+            "init": {
+                "title" : "Main menu",
+                "speak" : "Main menu",
+                "options": {
+                    "1": {
+                        "speak": "Press 1 to initialize device",
+                        "action": "wait",
+                        "actionParams": {
+                            "ms": 1000
+                        },
+                        "setContext": "default",
+                        "navigate": "main"
+                    }
                 }
             },
-            "next": "sub"
+
+            "default": {
+                "title" : "Main menu",
+                "speak" : "Main menu",
+                "options": {
+                    "1": {
+                        "speak": "Press 1 to receive money",
+                        "navigate": "rcvMoney"
+                    },
+                    "2": {
+                        "speak": "Press 2 to send money",
+                        "navigate": "sndMoney"
+                    }
+                }
+            }
         },
-        "sub" : {
-            "title" : "Generate a wallet",
-            "speak" : "Generate a wallet",
-            "options": {
-                "1": {
-                    "speak": "press 1 to go back",
-                    "navigate": "[back]"
+        "rcvMoney" : {
+            "default" : {
+                "title" : "Receive money",
+                "speak" : "Receive money",
+                "options": {
+                    "1": {
+                        "speak": "Press 1 to go back",
+                        "navigate": "[back]"
+                    }
+                }
+            }
+        },
+        "sndMoney" : {
+            "default" : {
+                "title" : "Send money",
+                "speak" : "Send money",
+                "options": {
+                    "1": {
+                        "speak": "Press 1 to go back",
+                        "navigate": "[back]"
+                    }
                 }
             }
         }

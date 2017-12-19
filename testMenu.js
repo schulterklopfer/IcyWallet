@@ -3,6 +3,8 @@
 
 const menuJson = require( './menu.json' );
 const Menu = require( './lib/menu.js' );
+const Voice = require('./lib/voice.js');
+const Wallet = require('./lib/wallet.js');
 
 
 const logger = {
@@ -22,7 +24,17 @@ module.exports = {
 }
 
 
-const m = new Menu();
+const unhandledMenuInput = function( input ) {
+  console.log( input );
+}
+
+const v = new Voice('tts','en');
+const m = new Menu( {voice: v, unhandledInputCallback: unhandledMenuInput } );
+const w = new Wallet( {voice: v} );
+
+console.log(w.init());
+
+//w.readMnemonics();
 
 
 m.registerAction('wait', function( params, next ) {
@@ -30,13 +42,15 @@ m.registerAction('wait', function( params, next ) {
   setTimeout( next, time );
 })
 
+m.setContext('init');
+
 m.loadFromJSON( menuJson, function(err) {
-  console.log( "json loaded" );
 
+  m.start( function(err) {} );
 
-  m.readCurrentView(function(err) {
-    console.log( "menu finished" );
-  });
+  //w.checkWord(0,function(err,word) {
+  //  console.log( word );
+  //} )
 
 } );
 

@@ -7,6 +7,8 @@ const fs = require('fs');
 
 var index = {};
 
+const contexts = ['init', 'default'];
+
 // TODO: read from file
 var texts = [
   'a', 'b', 'c', 'd', 'e', 'f',
@@ -18,17 +20,21 @@ var texts = [
 const views = menuJSON.views ;
 
 _.each( views, function(view) {
-  if( _.indexOf( texts, view.speak )===-1  ) {
-    texts.push(view.speak);
-  }
 
-  _.each( view.options, function(option) {
-    if(  _.indexOf( texts, option.speak )===-1 ) {
-      texts.push(option.speak);
+  _.each( contexts, function( context ) {
+    if( view[context] ) {
+      if( _.indexOf( texts, view[context].speak )===-1  ) {
+        texts.push(view[context].speak);
+      }
+
+      _.each( view[context].options, function(option) {
+        if(  _.indexOf( texts, option.speak )===-1 ) {
+          texts.push(option.speak);
+        }
+
+      });
     }
-
   });
-
 });
 
 
