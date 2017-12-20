@@ -32,14 +32,16 @@ const v = new Voice('tts','en');
 const m = new Menu( {voice: v, unhandledInputCallback: unhandledMenuInput } );
 const w = new Wallet( {voice: v} );
 
-console.log(w.init());
+console.log();
 
 //w.readMnemonics();
 
 
-m.registerAction('wait', function( params, next ) {
-  const time = parseInt(params.ms);
-  setTimeout( next, time );
+m.registerAction('wallet.init', function( params, next ) {
+
+  w.init();
+  w.readMnemonic(0,next);
+
 })
 
 m.setContext('init');
@@ -47,10 +49,6 @@ m.setContext('init');
 m.loadFromJSON( menuJson, function(err) {
 
   m.start( function(err) {} );
-
-  //w.checkWord(0,function(err,word) {
-  //  console.log( word );
-  //} )
 
 } );
 
