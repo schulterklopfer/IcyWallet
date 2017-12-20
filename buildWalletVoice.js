@@ -42,7 +42,7 @@ async.eachLimit( texts, 10, function( text, nextEach ) {
     nextEach();
   });
 }, function(err) {
-  const fileName = 'tts/en/bip39.json';
+  const fileName = 'tts/en/wallet.json';
   fs.writeFileSync( fileName, JSON.stringify(index,null,4) );
   console.log( 'done' );
 })
