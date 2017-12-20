@@ -4,14 +4,11 @@
         "main" : {
             "init": {
                 "title" : "Main menu",
-                "speak" : "Main menu",
+                "speak" : "In order to create a new wallet, you'll need to write down twelve words. These words are the seed for your wallet, and they serve as its only backup. It's important for you to capture them accurately. The words will be given one at a time and spelled out, since there are some homophones. After you capture the seed, you’ll need to re-enter the words to confirm you’ve stored the seed correctly. Since the seed allows anyone to take full control of your coins, please take precautions while capturing it. Be sure to use headphones, and confirm that no one is looking over your shoulder. Your seed should be stored completely offline. You can use a brailler or a slate and stylus to put it on paper.",
                 "options": {
-                    "1": {
-                        "speak": "Press 1 to initialize device",
-                        "action": "wait",
-                        "actionParams": {
-                            "ms": 1000
-                        },
+                    "START": {
+                        "speak": "To start the process, type START and press enter",
+                        "action": "wallet.init",
                         "setContext": "default",
                         "navigate": "main"
                     }
@@ -48,7 +45,23 @@
         "sndMoney" : {
             "default" : {
                 "title" : "Send money",
-                "speak" : "Send money",
+                "speak" : "Please enter a USB device containing a transaction.",
+                "options": {
+                    "1": {
+                        "speak": "Press 1 to sign a transaction",
+                        "navigate": "signTransaction"
+                    },
+                    "2": {
+                        "speak": "Press 2 to go back",
+                        "navigate": "[back]"
+                    }
+                }
+            }
+        },
+        "signTransaction" : {
+            "default" : {
+                "title" : "Sign transaction",
+                "speak" : "Sign transaction",
                 "options": {
                     "1": {
                         "speak": "Press 1 to go back",
