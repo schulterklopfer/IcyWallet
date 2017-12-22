@@ -47,17 +47,19 @@ module.exports = {
 
 
 
-const v = new Voice('tts','en');
-const o = new Output( { voice: v, stdout: process.stdout } );
+const o = new Output( { voice: new Voice('tts','en'), stdout: process.stdout } );
 const m = new Menu( {output: o } );
 const w = new Wallet( {output: o} );
-
-//w.readMnemonics();
 
 m.registerAction('wallet.init', function( params, next ) {
 
   w.init();
-  w.readMnemonic(0,next);
+  w.readMnemonic(0,function() {
+    next({
+      "setContext": "default",
+      "navigate": "main"
+    });
+  });
 
 })
 

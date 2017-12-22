@@ -8,9 +8,7 @@
                 "options": {
                     "START": {
                         "speak": "To start the process, type START and press enter",
-                        "action": "wallet.init",
-                        "setContext": "default",
-                        "navigate": "main"
+                        "action": "wallet.init"
                     }
                 }
             },
