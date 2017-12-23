@@ -52,23 +52,32 @@ const m = new Menu( {output: o } );
 const w = new Wallet( {output: o} );
 
 m.registerAction('wallet.init', function( params, next ) {
-
   w.init();
-  w.readMnemonic(0,function() {
-    next({
-      "setContext": "default",
-      "navigate": "main"
-    });
-  });
+  next();
+});
 
-})
+
+let currentIndex=0;
+
+m.registerAction('mnemonic.speakWord', function( params, next ) {
+  w.readMnemonic(currentIndex,function(err) {
+    console.log( "finished reading", currentIndex);
+    next();
+  });
+});
+
+m.registerAction('mnemonic.nextWord', function( params, next ) {
+  currentIndex++;
+  next();
+});
+
 
 m.setContext('init');
 
-m.loadFromJSON( menuJson, function(err) {
+m.loadFromJSON( menuJson );
 
-  m.start( function(err) {} );
+m.start( function(err) {} );
 
-} );
+
 
 
