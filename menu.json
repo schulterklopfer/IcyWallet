@@ -8,7 +8,8 @@
                 "options": {
                     "START": {
                         "speak": "To start the process, type START and press enter",
-                        "action": "wallet.init"
+                        "action": "wallet.init",
+                        "navigate": "mnemonic"
                     }
                 }
             },
@@ -28,6 +29,39 @@
                 }
             }
         },
+
+        "mnemonic" : {
+            "init": {
+                "title" : "Word",
+                "action": "mnemonic.speakWord",
+                "options": {
+                    "R": {
+                        "speak": "To repeat the current word, type R",
+                        "navigate": "mnemonic"
+                    },
+                    "N": {
+                        "speak": "To listen to the next word, type N",
+                        "action": "mnemonic.nextWord",
+                        "navigate": "mnemonic"
+                    }
+                }
+            }
+        },
+
+        "initDone" : {
+            "init": {
+                "title" : "Initialisation complete",
+                "speak" : "Your wallet was created successfully",
+                "options": {
+                    "1": {
+                        "speak": "Press one to go the the main menu",
+                        "navigate": "main",
+                        "setContext": "default"
+                    }
+                }
+            }
+        },
+
         "rcvMoney" : {
             "default" : {
                 "title" : "Receive money",
