@@ -5,6 +5,7 @@
   "main": "icywallet.js",
   "scripts": {
     "test": "node test/tests.js",
+    "debug": "node debug testMenu.js",
     "lint": "./node_modules/.bin/eslint lib/*.js test/*.js *.js --fix"
   },
   "repository": {
@@ -31,5 +32,5 @@
     "nodemon": "^1.11.0",
     "nconf": "^0.8.4",
     "eslint": "^3.19.0"
-  },
+  }
 }
