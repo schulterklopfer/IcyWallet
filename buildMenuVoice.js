@@ -51,6 +51,13 @@ async.eachLimit( texts, 1, function( text, nextEach ) {
   tts.get( text, 'en', 1.0, 'tts/en', function(err,r) {
     if( err ) return nextEach(err);
     index[r.text] = r.digest;
+
+    if( r.newFile ) {
+      console.log( "created",r.digest);
+    } else {
+      console.log( "skipping",r.digest);
+    }
+
     nextEach();
   })
 }, function(err) {
