@@ -47,7 +47,7 @@ module.exports = {
 
 
 
-const o = new Output( { voice: new Voice('tts','en'), stdout: process.stdout } );
+const o = new Output( { voice: new Voice('tts','en'), speed: 1.0, stdout: process.stdout } );
 const m = new Menu( {output: o } );
 const w = new Wallet( {output: o} );
 
